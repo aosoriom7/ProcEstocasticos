@@ -1,0 +1,66 @@
+https://www.mygreatlearning.com/blog/linear-regression-in-machine-learning/#whatisregression
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Independent variables, also called inputs or predictors, don’t depend on other features of interest (or at least you assume so for the purpose of the analysis).
+
+Dependent variables, also called outputs or responses, depend on the independent variables.
+
+Assumptions associated with a regression model:
+
+Independence of observations.
+
+The variance of residuals should be constant (Homoscedasticity).
+
+The dependent variable is normally distributed.
+
+As a rule, the relationship between independent variables and the dependent variable ( mean value) is linear.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Mean Absolute Percentage Error (MAPE)
+Root Mean Square Error (RMSE)
+
+R-square value depicts the percentage of the variation in the dependent variable explained by the independent variable in the model. R2 value ranges from 0 to 1. Higher the R-square value better the model. The value of R2 increases if we add more variables to the model irrespective of the variable contributing to the model or not. This is the disadvantage of using R2.
+
+
+Adjusted R-squared values, where R2 is R-square value, n = total number of observations, and k = total number of variables used in the model. If we increase the number of variables, the denominator becomes smaller and the overall ratio will be high. Subtracting from 1 will reduce the overall Adjusted R2. So to increase the Adjusted R2, the contribution of additive features to the model should be significantly high.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Multiple Linear Regression
+
+Multicollinearity: There should not be high correlation between two or more independent variables. Multicollinearity can be checked using correlation matrix, Tolerance and Variance Influencing Factor (VIF).
+
+Categorical Data: Any categorical data present should be converted into dummy variables.
+
+Minimum records: There should be at least 20 records of independent variables.
+
+
+Polynomial Regression
+
+Underfitting and Overfitting
+When we fit a model, we try to find the optimised, best-fit line, which can describe the impact of the change in the independent variable on the change in the dependent variable by keeping the error term minimum. While fitting the model, there can be 2 events which will lead to the bad performance of the model. These events are
+
+https://www.mygreatlearning.com/blog/overfitting-and-underfitting-in-machine-learning/
+
+
+
+Bayesian
+
+https://dida.do/blog/what-is-bayesian-linear-regression
+https://dida.do/blog/what-is-bayesian-linear-regression-part-2 
+
+Supervised machine learning algorithms are classified into two types-
+
+Regression: Used to predict continuous variable
+Classification: Used to predict nominal (digital-valued) variable
+
+classification:
+https://realpython.com/logistic-regression-python/
+
+Logistic regression is a fundamental classification technique. It belongs to the group of linear classifiers and is somewhat similar to polynomial and linear regression 
+
+ 
